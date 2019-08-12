@@ -128,6 +128,11 @@ h1, h2, h3, h4, h5 {
     color: #B0B0BA;
 }
 
+.header nav a {
+    text-decoration: none;
+    color: #B0B0BA;
+}
+
 .jumbotron {
     display: flex;
     flex-flow: row wrap;
