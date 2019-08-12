@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .container > div {
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .header {
@@ -199,6 +199,11 @@ h1, h2, h3, h4, h5 {
         display: flex;
         flex-flow: row wrap;
     }
+}
+
+.main-sub-image img {
+    width: 100%;
+    height: auto;
 }
 
 .three-columns > div {
