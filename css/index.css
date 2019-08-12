@@ -143,19 +143,20 @@ h1, h2, h3, h4, h5 {
 .calltoaction {
     display: flex;
     flex-flow: column wrap;
+    padding: 10px;
+}
+
+.calltoaction.main-page {
+    width: 440px;
+    text-align: center;
     align-items: center;
 }
 
-.calltoaction * {
-    width: 440px;
-    text-align: center;
-}
-
-.calltoaction h1 {
+.calltoaction h1.main-page {
     font-size: 70px;
 }
 
-.calltoaction p {
+.calltoaction p.clicktoaction {
     border: 1px solid black;
     width: 180px;
     padding: 5px;
