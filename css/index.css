@@ -149,6 +149,12 @@ h1, h2, h3, h4, h5 {
     justify-content: space-around;
 }
 
+@media (max-width: 800px) {
+    .main-sub .main-sub-text {
+        padding-top: 20px
+    }
+}
+
 .main > div {
     padding: 20px;
 }
