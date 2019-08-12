@@ -89,13 +89,13 @@ h1, h2, h3, h4, h5 {
         flex-flow: column-reverse wrap;
     }
 
-    .header .nav {
+    .header nav {
         padding-top: 20px;
     }
 }
 
 
-.header .nav {
+.header nav {
     display: flex;
     flex-direction: row; 
     justify-content: space-around;
@@ -103,21 +103,21 @@ h1, h2, h3, h4, h5 {
 
 @media (max-width: 500px) {
     
-    .header .nav {
+    .header nav {
         flex-direction: column;
         align-items: center;
     }
     
-    .header .nav p {
+    .header nav p {
         border-top: 1px solid #B0B0BA;
         padding: 10px;
     }
 
-    .header .nav p:last-child {
+    .header nav p:last-child {
         border-bottom: 1px solid #B0B0BA;
     }
 }
-.header .nav p {
+.header nav p {
     width: 100px;
     color: #B0B0BA;
 }
