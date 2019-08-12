@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5 {
 
 .main-sub {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     justify-content: space-around;
 }
 
@@ -164,7 +164,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .three-columns > div {
-    width: 250px;
+    width: 30%x;
+    padding: 10px;
 }
 
 .footer {
