@@ -112,6 +112,10 @@ h1, h2, h3, h4, h5 {
         border-top: 1px solid #B0B0BA;
         padding: 10px;
     }
+
+    .header .nav p:last-child {
+        border-bottom: 1px solid #B0B0BA;
+    }
 }
 .header .nav p {
     width: 100px;
