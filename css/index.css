@@ -93,7 +93,8 @@ h1, h2, h3, h4, h5 {
 .header nav {
     display: flex;
     flex-direction: row; 
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 75%
 }
 
 @media (max-width: 800px) {
@@ -123,7 +124,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .header nav p {
-    /* width: 100px; */
+    flex: 1 1;
     color: #B0B0BA;
 }
 
