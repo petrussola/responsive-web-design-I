@@ -188,9 +188,23 @@ h1, h2, h3, h4, h5 {
     width: 400px;
 }
 
+@media (max-width: 500px) {
+    .two-columns {
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
+
 .three-columns > div {
     width: 30%x;
     padding: 10px;
+}
+
+@media (max-width: 500px) {
+    .three-columns {
+        display: flex;
+        flex-flow: row wrap;
+    }
 }
 
 .footer {
