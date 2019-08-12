@@ -140,6 +140,11 @@ h1, h2, h3, h4, h5 {
     align-items: center;
 }
 
+.section-1-left img {
+    width: 100%;
+    height: auto;
+}
+
 .calltoaction {
     display: flex;
     flex-flow: column wrap;
@@ -186,7 +191,7 @@ h1, h2, h3, h4, h5 {
     justify-content: space-evenly;
 }
 
-@media (max-width:500px) {
+@media (max-width:800px) {
     .middle {
         flex-flow: column wrap;
     }
@@ -198,6 +203,13 @@ h1, h2, h3, h4, h5 {
     border: 1px solid black;
     margin: 10px 0;
     background: #F4F3F4;
+}
+
+@media (max-width: 800px) {
+    .middle>div {
+        width: 95%;
+        margin: 10px; 2.5%;
+    }
 }
 
 .middle p {
@@ -213,7 +225,7 @@ h1, h2, h3, h4, h5 {
 
 .main-sub {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-around;
 }
 
